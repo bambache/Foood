@@ -19,14 +19,13 @@ For more information about App Engine, see README.md under /appengine.
 """
 
 # [START all]
-
-from google.appengine.api import users
-import webapp2
 import httplib2
 
 from apiclient import discovery
 from oauth2client import client
 from oauth2client import tools
+from google.appengine.api import users
+import webapp2
 
 # If modifying these scopes, delete your previously saved credentials
 # at ~/.credentials/sheets.googleapis.com-python-quickstart.json
